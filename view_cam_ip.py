@@ -12,7 +12,7 @@ import time
 #DIMENSAO = 720
 totalFrames = 0
 skip_frames = 1
-url = 'rtsp://admin:globalsys123@192.168.0.64:554/Streaming/channels/101/'
+url = 'rtsp://admin:password@192.168.0.64:554/Streaming/channels/101/'
 
 cap = cv2.VideoCapture(url)
 
